@@ -1,6 +1,8 @@
 Content Revert Bolt Extension
 =============================
 
+[![Build Status](https://img.shields.io/travis/ca-team-sulley/bolt-extension-content-revert/master.svg?style=flat-square)](https://travis-ci.org/ca-team-sulley/bolt-extension-content-revert)
+
 The purpose of this extension is to allow users to revert content to a previous version.
 
 Configuring
