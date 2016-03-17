@@ -1,0 +1,41 @@
+{
+    "name": "cainc/content-revert",
+    "description": "Allows reverting content to a selected revision from the changelog.",
+    "type": "bolt-extension",
+    "require": {
+        "bolt/bolt": ">=2.0.0,<3.0.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Team Sulley",
+            "email": "team-sulley@cainc.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "preferred-install": "dist"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bolt\\Extension\\Cainc\\ContentRevert\\": "src"
+        }
+    },
+    "require-dev": {
+        "mockery/mockery": "~0.9"
+    },
+    "autoload-dev": {
+        "files": [
+            "init.php",
+            "Extension.php"
+        ],
+        "psr-4": {
+            "Bolt\\Extension\\Cainc\\ContentRevert\\Tests\\": "tests",
+            "Bolt\\Tests\\": "./vendor/bolt/bolt/tests/phpunit/unit"
+        }
+    },
+    "extra": {
+        "bolt-assets": "assets"
+    }
+}

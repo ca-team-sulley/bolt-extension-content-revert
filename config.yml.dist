@@ -1,0 +1,8 @@
+# Enable to skip fields of type 'hidden', or alternatively with the 'hidden'
+# class for old version compatability.
+#
+# As hidden fields are commonly used for meta information, not controlled
+# directly by an editor, this may be used to prevent reverting any changes
+# made to these fields.
+
+skip_hidden_fields: false
