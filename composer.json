@@ -34,8 +34,5 @@
             "Bolt\\Extension\\Cainc\\ContentRevert\\Tests\\": "tests",
             "Bolt\\Tests\\": "./vendor/bolt/bolt/tests/phpunit/unit"
         }
-    },
-    "extra": {
-        "bolt-assets": "assets"
     }
 }
