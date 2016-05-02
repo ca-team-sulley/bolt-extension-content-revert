@@ -18,18 +18,17 @@
         "preferred-install": "dist"
     },
     "autoload": {
+        "files": [
+            "init.php"
+        ],
         "psr-4": {
-            "Bolt\\Extension\\Cainc\\ContentRevert\\": "src"
+            "Bolt\\Extension\\Cainc\\ContentRevert\\": ["", "src"]
         }
     },
     "require-dev": {
         "mockery/mockery": "~0.9"
     },
     "autoload-dev": {
-        "files": [
-            "init.php",
-            "Extension.php"
-        ],
         "psr-4": {
             "Bolt\\Extension\\Cainc\\ContentRevert\\Tests\\": "tests",
             "Bolt\\Tests\\": "./vendor/bolt/bolt/tests/phpunit/unit"
